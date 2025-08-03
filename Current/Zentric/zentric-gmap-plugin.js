@@ -10,7 +10,7 @@ $(document).ready(function() {
     // MAPBOX SETUP
 
     // Replace with your access token
-    mapboxgl.accessToken = "pk.eyJ1IjoidHNvaWktd29yayIsImEiOiJjbWR3Ymp3emExMmNoMnFvazB0MXVnaWd3In0.nwyM2N1CcNAveI4YwPCoIg";
+    mapboxgl.accessToken = "pk.eyJ1IjoiYmFkZXhlYyIsImEiOiJjbHR6ejNxZm8wNTlmMmpsb21meW9tcWxpIn0.hPrtQWtl6vIeQWekmLWexQ";
 
     let mapLocations = {
         type: "FeatureCollection",
