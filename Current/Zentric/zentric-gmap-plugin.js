@@ -10,7 +10,7 @@ $(document).ready(function() {
     // MAPBOX SETUP
 
     // Replace with your access token
-    mapboxgl.accessToken = "pk.eyJ1IjoiYmFkZXhlYyIsImEiOiJjbHR6ejNxZm8wNTlmMmpsb21meW9tcWxpIn0.hPrtQWtl6vIeQWekmLWexQ";
+    mapboxgl.accessToken = "pk.eyJ1IjoidHNvaWktd29yayIsImEiOiJjbWR3Ymp3emExMmNoMnFvazB0MXVnaWd3In0.nwyM2N1CcNAveI4YwPCoIg";
 
     let mapLocations = {
         type: "FeatureCollection",
@@ -21,7 +21,7 @@ $(document).ready(function() {
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/badexec/clu1r5ru2000h01q53ss8316y',
-        center: [-74.657884, 39.719790],
+        center: [-117.1611, 32.7157],
         zoom: 30,
         projection: 'globe'
     });
