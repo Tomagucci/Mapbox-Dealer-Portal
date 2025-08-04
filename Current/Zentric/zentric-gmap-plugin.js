@@ -49,7 +49,7 @@ $(document).ready(function() {
     );
 
     function getGeoData() {
-        let listLocations = document.getElementById("location-list").childNodes;
+        let listLocations = document.getElementById("Stores-list").childNodes;
         listLocations.forEach(function(location, i) {
             let locationLat = location.querySelector("#locationLatitude").value;
             let locationLong = location.querySelector("#locationLongitude").value;
